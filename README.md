@@ -1,14 +1,14 @@
 ## 💻 Sobre o projeto
 
-Voll.med é uma clínica médica fictícia que precisa de um aplicativo para gestão de consultas. O aplicativo deve possuir funcionalidades que permitam o cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.
+Voll.psi é uma clínica de psicologia que precisa de um aplicativo para gestão de consultas. O aplicativo deve possuir funcionalidades que permitam o cadastro de de psicologos e de pacientes, e também o agendamento e cancelamento de consultas.
 
-Enquanto um time de desenvolvimento será responsável pelo aplicativo mobile, o nosso será responsável pelo desenvolvimento da API Rest desse projeto.
+Esse projeto é responsável pelo desenvolvimento da API Rest desse projeto.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] CRUD de médicos;
+- [x] CRUD de psicólogos;
 - [x] CRUD de pacientes;
 - [x] Agendamento de consultas.
 
@@ -22,7 +22,7 @@ O layout da aplicação mobile está disponível neste link: <a href="https://ww
 
 ## 📄 Documentação
 
-A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/O0lGCsKb/api-voll-med">Trello</a>
+A documentação das funcionalidades da aplicação foram baseadas a partir desse link: <a href="https://trello.com/b/O0lGCsKb/api-voll-med">Trello</a>
 
 ---
 
@@ -33,7 +33,6 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do proj
 - **[Java 17](https://www.oracle.com/java)**
 - **[Spring Boot 3](https://spring.io/projects/spring-boot)**
 - **[Maven](https://maven.apache.org)**
-- **[MySQL](https://www.mysql.com)**
 - **[Hibernate](https://hibernate.org)**
 - **[Flyway](https://flywaydb.org)**
 - **[Lombok](https://projectlombok.org)**
@@ -42,7 +41,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do proj
 
 ## 📝 Licença
 
-Projeto desenvolvido por [Alura](https://www.alura.com.br) e utilizado nos cursos de Spring Boot.
+Projeto desenvolvido por [Alura](https://www.alura.com.br) e adaptado e ajustado por Felipe Medeiros.
 
 Instrutor: [Rodrigo Ferreira](https://cursos.alura.com.br/user/rodrigo-ferreira) 
 

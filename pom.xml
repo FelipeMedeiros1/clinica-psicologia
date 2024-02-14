@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>med.voll</groupId>
+	<groupId>psi.voll</groupId>
 	<artifactId>api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api</name>
-	<description>API Rest da aplicacao Voll.med</description>
+	<description>API Rest da aplicacao Voll.psi</description>
 
 	<properties>
 		<java.version>17</java.version>
@@ -40,6 +40,12 @@
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-mysql</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version> <!-- ou a versão mais recente -->
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
