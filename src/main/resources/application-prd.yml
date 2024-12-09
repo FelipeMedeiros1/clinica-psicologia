@@ -1,12 +1,19 @@
 spring:
+
   datasource:
-    url: jdbc:postgresql://localhost:5432/clinica
-    username: seu_nome_de_usuario
-    password: sua_senha
+    url: jdbc:mysql://localhost:3306/psi_api
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     open-in-view: false
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
     hibernate:
-      ddl-auto: create
+      database-platform: org.hibernate.dialect.MySQLDialect
+#      ddl-auto: create
 #       para criar o bco: executa somenta a primeira vez " ddl-auto: create ", depois troca de create pora "validate"
 
 
